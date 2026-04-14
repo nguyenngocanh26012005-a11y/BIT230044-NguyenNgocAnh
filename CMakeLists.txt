@@ -3,9 +3,19 @@ project(Prog3003 C)
 
 set(CMAKE_C_STANDARD 11)
 
+# Chapter01
 add_executable(bai1 Chapter01/ExOne/src/bai1.c)
 add_executable(bai2 Chapter01/ExOne/src/bai2.c)
 add_executable(bai3 Chapter01/ExOne/src/bai3.c)
 add_executable(bai4 Chapter01/ExOne/src/bai4.c)
 add_executable(bai5 Chapter01/ExOne/src/bai5.c)
 add_executable(bai6 Chapter01/ExOne/src/bai6.c)
+
+# Chapter02
+add_executable(bai1_ch2 Chapter02/ExOne/bai_1.c)
+add_executable(bai2_ch2 Chapter02/ExOne/bai_2.c)
+add_executable(bai3_ch2 Chapter02/ExOne/bai_3.c)
+add_executable(bai4_ch2 Chapter02/ExOne/bai_4.c)
+add_executable(bai5_ch2 Chapter02/ExOne/bai_5.c)
+add_executable(bai6_ch2 Chapter02/ExOne/bai_6.c)
+add_executable(bai7_ch2 Chapter02/ExOne/bai_7.c)
